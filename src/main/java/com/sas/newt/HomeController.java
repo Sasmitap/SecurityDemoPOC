@@ -9,7 +9,8 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 	@RequestMapping("/")  
-	public String index(){  
+	public String index(){
+		System.out.println("Inside index method");
 		return "index";  
 	}  
 	@RequestMapping(value="/save", method=RequestMethod.POST)  
