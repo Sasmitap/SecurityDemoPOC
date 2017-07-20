@@ -1,5 +1,10 @@
 package com.sas.newt;
 
+/**
+ * 
+ * @author sasmitap
+ *
+ */
 public class User {
 	String name;  
 	String email;  
